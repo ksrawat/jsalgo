@@ -9,7 +9,9 @@ function findPairs(arr, sum){
   while( start < end ){
     if(array[start] + array[end] === sum){
       pairArray.push([array[start], array[end]]);
+      // increment the start pointer from left
       start = start + 1;
+      // decrement the end pointer from right
       end = end - 1;
     }else if(array[start] + array[end] < sum){
       start = start + 1;
