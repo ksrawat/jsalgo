@@ -1,5 +1,6 @@
 /*
-  Given a sorted array in ascending order, having N integers, count and display any existing pair of array elements such that their sum is equal to x.
+  Given a sorted array in ascending order, having N integers, count and display any existing pair of array elements 
+  such that their sum is equal to x.
 */
 
 const array = [2,3,4,5,6,7,8,9];
